@@ -1,0 +1,12 @@
+.formWidth {
+  max-width: 30rem;
+  justify-content: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  border: 2px solid #919191;
+  border-radius: 25px;
+}
+
+.formWidth label {
+  color: #525252;
+}

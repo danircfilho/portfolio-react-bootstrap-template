@@ -1,0 +1,40 @@
+.rowAdjust {
+  justify-content: space-evenly;
+  padding-bottom: .5rem;
+}
+
+.colAdjust {
+  flex: 0;
+}
+
+.cards {  
+  margin: 1rem 0 .5rem 0;
+  width: 22rem;
+}
+
+.cards img {
+max-height: 14rem;
+padding: 1rem;
+border-radius: 22px 22px 0 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 425px)  {
+  .cards {  
+    width: 24.5rem;
+  }
+}
+
+@media screen and (max-width: 375px)  {
+  .cards {  
+    width: 21rem;
+  }
+}
+
+@media screen and (max-width: 320px)  {
+  .cards {  
+    width: 18rem;
+  }
+}
+
+
