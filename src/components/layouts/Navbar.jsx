@@ -1,4 +1,4 @@
-import { LinkContainer } from 'react-router-bootstrap'
+import { Link } from 'react-router-dom';
 
 //Estilos
 import styles from './Navbar.module.css';
@@ -18,14 +18,23 @@ export default function MenuApp() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Container className={styles.menuAdjust}>
             <Nav className="me-auto justify-content-end">
-              <LinkContainer href="/card">Cards</LinkContainer>
-              <LinkContainer href="/form">Form</LinkContainer>
+              <Nav.Link>
+                <Link to="/card">Cards</Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="/form">Form</Link>
+              </Nav.Link>
               <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="/">Action</NavDropdown.Item>
-                <NavDropdown.Item href="/">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="/">Something</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/">Action</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/">Another Action</Link>
+                </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/">Separated Link</Link>
+                </NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Container>

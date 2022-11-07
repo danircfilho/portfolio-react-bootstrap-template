@@ -1,3 +1,7 @@
 .menuAdjust {
   padding-right: 0;
 }
+
+.menuAdjust a:hover {
+  color: #7a7a7a;
+} 
