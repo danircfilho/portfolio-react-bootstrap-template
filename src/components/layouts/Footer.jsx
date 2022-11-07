@@ -17,8 +17,8 @@ export default function Footer() {
   const currentYear = date.getFullYear();
 
   return (
-    <div className="bg-secondary py-5">
-      <Container className="bg-secondary">
+    <div className={styles.bg_footer}>
+      <Container>
         <Row className="align-items-start">
           <Col xs={12} sm={12} md={3} lg={3} className={styles.iconTechnology}>
             <h4>Website Technologies:</h4>
@@ -57,7 +57,7 @@ export default function Footer() {
           </Col>           
           <Col xs={12} sm={12} md={3} lg={3} className={styles.address}>
             <Col>
-              <h4>Contatct</h4>
+              <h4>Contact</h4>
               <p>
                 <i><FaHouseUser/></i>&ensp; 10 5th Ave, New York, NY
               </p>
@@ -77,9 +77,7 @@ export default function Footer() {
         </Row>
         <Row className={styles.copyrigth}>
           <Col>
-            <p className="text-center"> 
-              Copyright &copy; {currentYear} Daniel Rodrigues All Rights Reserved
-            </p>
+            <p>Copyright &copy; {currentYear} All Rights Reserved<br/>Daniel Rodrigues</p>
           </Col>
         </Row>
       </Container>

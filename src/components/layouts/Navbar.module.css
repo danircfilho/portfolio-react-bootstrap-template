@@ -1,7 +1,24 @@
+.bg {
+  background: #C0B283;
+}
+
+.brand a {
+  padding-left: .5rem;
+}
+
+.brand, .menuAdjust a {
+  color: #373737;
+}
+
+/* color: inherit; sem cor (inherit = herdado) */
+.brand a:hover {
+  color: #6e6e6e;
+} 
+
 .menuAdjust {
   padding-right: 0;
 }
 
 .menuAdjust a:hover {
-  color: #7a7a7a;
+  color: #6e6e6e;
 } 

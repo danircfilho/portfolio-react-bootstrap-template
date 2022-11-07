@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 //Estilo - Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,9 +9,10 @@ import Navbar from './components/layouts/Navbar';
 import Wrapper from './components/layouts/Wrapper';
 
 //Components - Pages
-import Home from './components/pages/Home';
 import Card from './components/pages/Card';
 import Form from './components/pages/Form';
+import FormCardColor from './components/pages/FormCard';
+import Home from './components/pages/Home';
 
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
           <Routes>
             <Route path="/card" element={<Card />} />
             <Route path="/form" element={<Form />} />
+            <Route path="/form-card" element={<FormCardColor />} />
             <Route path="/" element={<Home />} />
           </Routes>           
         </Wrapper>

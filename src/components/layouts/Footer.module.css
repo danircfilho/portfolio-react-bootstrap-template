@@ -1,5 +1,7 @@
-* {
-  color: #b4b4b4;
+.bg_footer {
+  background-color: #373737;
+  color: #DCD0C0;
+  padding: 2rem 0 2rem 0;
 }
 
 .iconTechnology i {
@@ -15,13 +17,10 @@
 }
 
 .list a:hover {
-  color: #303030;
+  /* color: inherit; sem cor (inherit = herdado) */
+  color: #C0B283;
+  font-weight: bold;
 } 
-
-/* Sem cor no link
-.list a:hover {
-  color: inherit; (inherit = herdado)
-} */
 
 .address p {
   font-size: 1rem;
@@ -37,6 +36,7 @@
 
 .copyrigth p {
   margin-top: 2rem;
+  text-align: center;
 }
 
 /* Media Queries */

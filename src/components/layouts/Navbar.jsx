@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 //Estilos
 import styles from './Navbar.module.css';
 
+//Imagem - Assets
+import Logo from '../../assets/react.svg'
+
 //Bootstrap
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -11,9 +14,19 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default function MenuApp() {
   return (
-    <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar fixed="top" collapseOnSelect expand="lg" className={styles.bg}>
       <Container>
-        <Navbar.Brand href="/">React com Bootstrap</Navbar.Brand>
+        <Navbar.Brand className={styles.brand}>
+          <Link to="/">
+            <img 
+              className="d-inline-block align-top" 
+              src={Logo} 
+              alt="React-Logo" 
+              width="30" height="30" 
+            />
+          </Link>
+          <Link to="/">React com Bootstrap</Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Container className={styles.menuAdjust}>
@@ -23,6 +36,9 @@ export default function MenuApp() {
               </Nav.Link>
               <Nav.Link>
                 <Link to="/form">Form</Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="/form-card">Form-Card</Link>
               </Nav.Link>
               <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                 <NavDropdown.Item>

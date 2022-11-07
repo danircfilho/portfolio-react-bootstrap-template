@@ -1,0 +1,10 @@
+.cardAlign {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0 4rem 0;
+}
+
+.cardStyle{
+  box-shadow: 7px 7px 5px #505050;
+}
+  
