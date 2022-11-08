@@ -8,7 +8,7 @@ import styles from './Form.module.css'
 
 export default function BasicForm() {
   return (
-    <Container className={styles.formWidth}>
+    <Container className={styles.form}>
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>

@@ -4,12 +4,25 @@ import { Link } from 'react-router-dom';
 import styles from './Footer.module.css'
 
 //Bootstrap
-import { Container } from "react-bootstrap";
+import { Container } from "react-bootstrap"; //mantém margens no padrão do bootstrap
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 //Icones
-import { FaBootstrap, FaCss3Alt, FaHtml5, FaJsSquare, FaReact, FaFontAwesome, FaInstagramSquare, FaFacebookSquare, FaYoutubeSquare, FaPhoneAlt, FaAt, FaHouseUser } from "react-icons/fa";
+import { 
+  FaBootstrap, 
+  FaCss3Alt, 
+  FaHtml5, 
+  FaJsSquare, 
+  FaReact, 
+  FaFontAwesome, 
+  FaInstagramSquare, 
+  FaFacebookSquare, 
+  FaYoutubeSquare, 
+  FaPhoneAlt, 
+  FaAt, 
+  FaHouseUser 
+} from "react-icons/fa";
 
 export default function Footer() {
   //Instanciar data atual (usado no final do footer)
@@ -17,9 +30,9 @@ export default function Footer() {
   const currentYear = date.getFullYear();
 
   return (
-    <div className={styles.bg_footer}>
-      <Container>
-        <Row className="align-items-start">
+    <div className={styles.bg_footer_margin_out}>     
+      <Container className={styles.bg_footer}>
+        <Row className="align-items-start" >
           <Col xs={12} sm={12} md={3} lg={3} className={styles.iconTechnology}>
             <h4>Website Technologies:</h4>
               <Col>

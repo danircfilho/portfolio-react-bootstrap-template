@@ -1,6 +1,6 @@
 .wrapper {
   min-height: 95vh;
   background-color: #F4F4F4;
-  padding-top: 3.5rem;
+  padding-top: 3.5rem; /* distancia após a navbar */
   color: #343434;
 }

@@ -1,7 +1,11 @@
+.bg_footer_margin_out {
+  background-color: #373737;
+}
+
 .bg_footer {
   background-color: #373737;
   color: #DCD0C0;
-  padding: 2rem 0 2rem 0;
+  padding-top: 3rem;
 }
 
 .iconTechnology i {

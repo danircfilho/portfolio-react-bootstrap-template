@@ -1,13 +1,40 @@
-.formWidth {
-  max-width: 18rem;
+.form {
+  background-color: #83c093;
+  max-width: 25rem;
   justify-content: center;
   padding: 1.5rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  border: 2px solid #919191;
-  border-radius: 25px;
+  margin: 3rem auto;
+  border: 1px solid #30bb55;
+  border-radius: 3%;
+  box-shadow: 7px 7px 5px #505050;
 }
 
-.formWidth label {
+.form label {
   color: #525252;
+}
+
+/* Media Queries */
+/* @media screen and (max-width: 600px) {
+  .form {
+    max-width: 18rem;
+  }
+} */
+
+/* Media Queries */
+@media screen and (max-width: 425px)  {
+  .form {  
+    width: 24.5rem;
+  }
+}
+
+@media screen and (max-width: 375px)  {
+  .form {  
+    width: 21rem;
+  }
+}
+
+@media screen and (max-width: 320px)  {
+  .form {  
+    width: 18rem;
+  }
 }

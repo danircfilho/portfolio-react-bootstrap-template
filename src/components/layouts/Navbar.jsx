@@ -25,7 +25,7 @@ export default function MenuApp() {
               width="30" height="30" 
             />
           </Link>
-          <Link to="/">React com Bootstrap</Link>
+          <Link to="/">React & Bootstrap</Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -37,20 +37,20 @@ export default function MenuApp() {
               <Nav.Link>
                 <Link to="/form">Form</Link>
               </Nav.Link>
-              <Nav.Link>
-                <Link to="/form-card">Form-Card</Link>
-              </Nav.Link>
               <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                <NavDropdown.Item>
-                  <Link to="/">Action</Link>
-                </NavDropdown.Item>
-                <NavDropdown.Item>
-                  <Link to="/">Another Action</Link>
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item>
-                  <Link to="/">Separated Link</Link>
-                </NavDropdown.Item>
+                {/* div para estilizar o hover ao clicar */}
+                <div className={styles.dropdown}>
+                  <NavDropdown.Item>
+                    <Link to="/">Action</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/">Another Action</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item>
+                    <Link to="/">Separated Link</Link>
+                  </NavDropdown.Item>                
+                </div>               
               </NavDropdown>
             </Nav>
           </Container>

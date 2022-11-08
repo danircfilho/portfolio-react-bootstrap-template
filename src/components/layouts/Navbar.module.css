@@ -2,6 +2,7 @@
   background: #C0B283;
 }
 
+/* Afastar o logo do título e igualar o logo 8px em relação ao menu direito */
 .brand a {
   padding-left: .5rem;
 }
@@ -21,4 +22,17 @@
 
 .menuAdjust a:hover {
   color: #6e6e6e;
+} 
+
+/* 
+muda a cor ao passar o mouse
+.dropdown a:hover {
+  background-color: #6e6e6e;
+}  
+*/
+
+/* muda a cor ao clicar */
+.dropdown a:active {
+  background: #6e6e6e;
+  color: #C0B283;
 } 
