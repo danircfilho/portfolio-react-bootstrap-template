@@ -2,6 +2,11 @@
   background-color: #373737;
 }
 
+.border_footer_top {
+  border-top: 1px solid #DCD0C0;
+  padding-bottom: 2rem;
+}
+
 .bg_footer {
   background-color: #373737;
   color: #DCD0C0;

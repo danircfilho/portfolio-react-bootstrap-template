@@ -1,0 +1,18 @@
+.wrapper {
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 20px;
+  box-shadow: 5px 10px 20px 2px rgba(0, 0, 0, 0.9);
+}
+.fontStyle h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: #343434;
+  }
+
+
+/* @media (min-width: 992px) {
+  .rounded_lg_3 { border-radius: .3rem; }
+} */

@@ -17,15 +17,15 @@ import Home from './components/pages/Home';
 export default function App() {
   return (
     <Router>
-        <Wrapper>
-          <Navbar/>
+      <Wrapper>
+        <Navbar/>
           <Routes>
             <Route path="/card" element={<Card />} />
             <Route path="/form" element={<Form />} />
             <Route path="/" element={<Home />} />
           </Routes>           
-        </Wrapper>
-      <Footer />    
+        <Footer />    
+      </Wrapper>
     </Router>
   );
 }

@@ -30,8 +30,9 @@ export default function Footer() {
   const currentYear = date.getFullYear();
 
   return (
-    <div className={styles.bg_footer_margin_out}>     
+    <div className={styles.bg_footer_margin_out}>           
       <Container className={styles.bg_footer}>
+        <div className={styles.border_footer_top}></div>
         <Row className="align-items-start" >
           <Col xs={12} sm={12} md={3} lg={3} className={styles.iconTechnology}>
             <h4>Website Technologies:</h4>
