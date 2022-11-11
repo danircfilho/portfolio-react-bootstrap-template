@@ -19,3 +19,44 @@ export const animationPage = {
       }
   }
 }
+
+export const animationTitle = {
+  hidden: {
+    y: 150
+  },
+  show: {
+    y: 0,
+      transition: {
+        duration: 0.75,
+        ease: 'easeOut'
+      }
+  }
+}
+
+export const animationFade = {
+  hidden: {
+    opacity: 0
+  },
+  show: {
+    opacity: 1,
+      transition: {
+        duration: 0.95,
+        ease: 'easeOut'
+      }
+  }
+}
+
+export const animateImage = {
+  hidden: {
+    scale: 1.5,
+    opacity: 0
+  },
+  show: {
+    scale: 1,
+    opacity: 1,
+      transition: {
+        duration: 0.95,
+        ease: 'easeOut'
+      }
+  }
+}

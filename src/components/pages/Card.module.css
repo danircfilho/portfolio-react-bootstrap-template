@@ -23,19 +23,19 @@ border-radius: 22px 22px 0 0;
 }
 
 /* Media Queries */
-@media screen and (max-width: 425px)  {
+@media (max-width: 425px)  {
   .cards {  
     width: 24.5rem;
   }
 }
 
-@media screen and (max-width: 375px)  {
+@media (max-width: 375px)  {
   .cards {  
     width: 21rem;
   }
 }
 
-@media screen and (max-width: 320px)  {
+@media (max-width: 320px)  {
   .cards {  
     width: 18rem;
   }

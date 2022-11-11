@@ -14,26 +14,20 @@
 }
 
 /* Media Queries */
-/* @media screen and (max-width: 600px) {
-  .form {
-    max-width: 18rem;
-  }
-} */
 
-/* Media Queries */
-@media screen and (max-width: 425px)  {
+@media (max-width: 425px)  {
   .form {  
     width: 24.5rem;
   }
 }
 
-@media screen and (max-width: 375px)  {
+@media (max-width: 375px)  {
   .form {  
     width: 21rem;
   }
 }
 
-@media screen and (max-width: 320px)  {
+@media (max-width: 320px)  {
   .form {  
     width: 18rem;
   }

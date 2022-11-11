@@ -7,10 +7,10 @@
   box-shadow: 5px 10px 20px 2px rgba(0, 0, 0, 0.9);
 }
 .fontStyle h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
   color: #343434;
-  }
+}
 
 
 /* @media (min-width: 992px) {
