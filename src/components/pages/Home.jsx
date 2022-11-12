@@ -1,7 +1,5 @@
 //Bootstrap
-import { Container } from 'react-bootstrap';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Container, Row, Col } from 'react-bootstrap';
 
 //Estilos
 import styles from './Home.module.css';
@@ -13,13 +11,25 @@ import ImgExOne from '../../assets/netflix.png';
 import { motion } from 'framer-motion';
 import { animationPage, animationTitle, animationFade, animateImage } from '../../animation'
 
+//Hooks
+import { useScroll } from '../hooks/useScroll'
+
+//Componente - Pages
+import Pricing from './Pricing';
+
 export default function Home() {
-  return ( 
+  //utilizando o hook no componente - o hook contém element, controls
+  const [element, controls] = useScroll()
+
+  return (
+    <>
     <motion.div
       initial='hidden'
-      animate='show'
       exit='exit'
+      /* animate='show' */
+      animate={ controls }
       variants={ animationPage }
+      ref={ element }
     >
       <Container className={styles.wrapper}> 
           <Row className="my-4">
@@ -46,9 +56,22 @@ export default function Home() {
             </Col>
           </Row>      
       </Container>
-    </motion.div> 
+    </motion.div>
+
+    <Pricing/>  {/* Componente */} 
+    </> 
   )
 };
+
+/*
+Importar bootstrap-react
+Sozinho:
+import { Container } from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+Vários:
+import { Container, Row, Col } from 'react-bootstrap';
+*/
 
 /*
 Várias formas de se usar o motion na div e ou container:

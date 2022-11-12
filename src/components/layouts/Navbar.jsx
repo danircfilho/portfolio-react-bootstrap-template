@@ -35,20 +35,20 @@ export default function MenuApp() {
                 <Link to="/card">Cards</Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/form">Login</Link>
+                <Link to="/form">Form</Link>
               </Nav.Link>
               <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                 {/* div para estilizar o hover ao clicar */}
                 <div className={styles.dropdown}>
                   <NavDropdown.Item>
-                    <Link to="/">Action</Link>
+                    <Link to="/pricing">Preços</Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link to="/">Another Action</Link>
+                    <Link className="nav-link disabled" to="/">Outra Ação</Link>
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
-                    <Link to="/">Separated Link</Link>
+                    <Link className="nav-link disabled" to="/">Link Separado</Link>
                   </NavDropdown.Item>                
                 </div>               
               </NavDropdown>

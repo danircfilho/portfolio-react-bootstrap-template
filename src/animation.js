@@ -1,28 +1,28 @@
 export const animationPage = {
   hidden: {
     opacity: 0,
-    y: 300
+    y: 50
   },
   show: {
     opacity: 1,
     y: 0,
-      transition: {
-        duration: 0.5,
-        when: 'beforeChildren',
-        staggerChildred: 0.25
-      }
+    transition: {
+      duration: 0.5,
+      when: 'beforeChildren',
+      staggerChildred: 0.25
+    }
   },
   exit: {
     opacity: 0,
-      transition: {
-        duration: 0.5,
-      }
+    transition: {
+      duration: 0.5
+    }
   }
 }
 
 export const animationTitle = {
   hidden: {
-    y: 150
+    y: 80
   },
   show: {
     y: 0,
@@ -40,11 +40,11 @@ export const animationFade = {
   show: {
     opacity: 1,
       transition: {
-        duration: 0.95,
+        duration: 0.75,
         ease: 'easeOut'
       }
   }
-}
+}  
 
 export const animateImage = {
   hidden: {
@@ -55,8 +55,25 @@ export const animateImage = {
     scale: 1,
     opacity: 1,
       transition: {
-        duration: 0.95,
+        duration: 0.75,
         ease: 'easeOut'
       }
+  }
+}
+
+export const scroolReview = {
+  hidden: {
+    scale: 1.2,
+    opacity: 0,
+    transition: {
+      duration: 0.5
+    }
+  },
+  show: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      duration: 0.5
+    }
   }
 }
