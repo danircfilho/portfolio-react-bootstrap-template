@@ -1,7 +1,7 @@
 export const animationPage = {
   hidden: {
     opacity: 0,
-    y: 50
+    y: 40
   },
   show: {
     opacity: 1,

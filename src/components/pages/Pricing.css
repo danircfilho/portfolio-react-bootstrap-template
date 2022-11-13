@@ -1,0 +1,37 @@
+h1, h4, p, ul {
+  color: #98775e !important;
+}
+
+.textCard {
+  color: #ffffff !important;
+}
+
+.card-header-brown {
+  background: #9c5722 !important;
+  border-radius: 5px 5px 0 0;
+}
+
+.border-primary {
+  border: 1px solid #9c5722 !important;
+}
+
+.btn-primary {
+  background: #9c5722 !important;
+  border: 1px solid #9c5722 !important;
+}
+
+.btn-primary:hover {
+  background: #5e3313 !important;
+  border: 1px solid #5e3313 !important;
+}
+
+.btn-outline-primary:hover {
+  background: #5e3313;
+  border: 1px solid #5e3313;
+}
+
+.btn-outline-primary {
+  border: 1px solid #9c5722;
+  color: #9c5722;
+}
+

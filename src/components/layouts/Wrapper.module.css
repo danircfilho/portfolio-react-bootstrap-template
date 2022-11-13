@@ -1,6 +1,24 @@
 .wrapper {
   min-height: 95vh;
-  background-color: #F4F4F4;
+  background-color: #f6d0b4;
   padding-top: 3.5rem; /* distancia após a navbar */
   color: #343434;
 }
+
+/*
+wrapper
+background-color: #f6d0b4;
+color: #343434; bg
+
+footer
+#5E0039 -bg
+#DCD0C0 - color, border
+#a85858; hover
+
+Nav
+#98775e - bg
+#413227 - hover
+#DCD0C0 - color,
+
+
+*/

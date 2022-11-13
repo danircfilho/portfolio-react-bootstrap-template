@@ -1,3 +1,6 @@
+//Estilos - CSS convencional - não precisa 'from' como em module
+import './Pricing.css';
+
 //Animação
 import { motion } from 'framer-motion';
 import { scroolReview } from '../../animation'
@@ -20,8 +23,8 @@ export default function Pricing() {
       ref={ element }
     >
       <div>
-        <h1 class="text-muted text-reset">Preços</h1>
-        <p class="fs-5 text-muted">
+        <h1 /* class="text-muted text-reset" */>Preços</h1>
+        <p /* class="fs-5 text-muted" */ class="fs-5">
           Exemplo de uma tabela de preços simples e eficiente feita com o Bootstrap. Os seus componentes e utilitários foram construídos com o padrão do Bootstrap e possui pouca personalização.
         </p>
       </div>
@@ -62,8 +65,10 @@ export default function Pricing() {
         </div>
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm border-primary">
-            <div class="card-header py-3 text-white bg-primary border-primary">
-              <h4 class="my-0 fw-normal">Enterprise</h4>
+            <div /* class="card-header py-3 text-white bg-primary border-primary" */ 
+              class="card-header-brown py-3 text-white bg-primary border-primary"
+            >
+              <h4 /* class="my-0 fw-normal" */ class="textCard my-0 fw-normal">Enterprise</h4>
             </div>
             <div class="card-body">
               <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
@@ -79,13 +84,16 @@ export default function Pricing() {
         </div>
       </div>
 
-      <div class="container text-center">
-        <div class="row gx-2 text-center">
-          <div class="col-sm-6 col-md-8 border bg-light">.col-sm-6 .col-md-8</div>
-          <div class="col-6 col-md-4 border bg-light">.col-6 .col-md-4</div>
+      {/* <div class="container text-center">
+        <div class="row gx-1">
+          <div class="col-8">
+          <div class="p-3 border bg-light">Custom column padding</div>
+          </div>
+          <div class="col-4">
+            <div class="p-3 border bg-light">Custom column padding</div>
+          </div>
         </div>
-      </div>
-
+      </div> */}
     </motion.div>
   )
 }

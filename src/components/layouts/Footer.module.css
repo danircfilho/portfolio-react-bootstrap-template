@@ -1,5 +1,15 @@
+h5 {
+  color: #98775e;
+}
+
+.bg_footer {
+  background-color: #25180c;
+  color: #DCD0C0;
+  padding-top: 3rem;
+}
+
 .bg_footer_margin_out {
-  background-color: #373737;
+  background-color: #25180c;
 }
 
 .border_footer_top {
@@ -7,15 +17,10 @@
   padding-bottom: 2rem;
 }
 
-.bg_footer {
-  background-color: #373737;
-  color: #DCD0C0;
-  padding-top: 3rem;
-}
-
 .iconTechnology i {
   font-size: 4rem;
   padding-right: .4rem;
+  color: #98775e;
 }
 
 .list ul, a {
@@ -27,7 +32,7 @@
 
 .list a:hover {
   /* color: inherit; sem cor (inherit = herdado) */
-  color: #C0B283;
+  color: #927458;
   font-weight: bold;
 } 
 
@@ -41,6 +46,7 @@
 
 .iconSocialMedia i {
   font-size: 2.5rem;
+  color: #98775e;
 }
 
 .copyrigth p {

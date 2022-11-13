@@ -22,7 +22,7 @@ export default function Home() {
   const [element, controls] = useScroll()
 
   return (
-    <>
+    <Container>
     <motion.div
       initial='hidden'
       exit='exit'
@@ -45,13 +45,13 @@ export default function Home() {
                 Utilize o Bootstrap para implementar um "Hero" em sua página. De forma simplista, Hero é um termo utilizado para descrever um produto. Nesse conceito, os e-commerces utilizam as imagens com o zoom adequado para destacar as características principais dessa mercadoria acompanhadas por banners ao lado da imagem
               </motion.p>
               <div className="ps-5 pt-2 mb-4">
-                <button type="button" className="btn btn-primary btn-lg">Primary</button>
-                <button type="button" className="btn btn-outline-secondary btn-lg ms-3">Default</button>
+                <button type="button" className="btn btn-primary">Primary</button>
+                <button type="button" className="btn btn-outline-secondary ms-3">Default</button>
               </div>
             </Col>
-            <Col lg={5} className="overflow-hidden p-0 shadow-lg">
+            <Col className="overflow-hidden p-0 shadow-lg">
               <motion.div variants={ animateImage }>
-                <img src={ImgExOne} alt="BootstrapSiteImage" width="740"/>
+                <img src={ImgExOne} alt="Image_Site" width="740"/>
               </motion.div>
             </Col>
           </Row>      
@@ -59,7 +59,7 @@ export default function Home() {
     </motion.div>
 
     <Pricing/>  {/* Componente */} 
-    </> 
+    </Container> 
   )
 };
 

@@ -1,5 +1,5 @@
 .bg {
-  background: #C0B283;
+  background: #98775e;
 }
 
 /* Afastar o logo do título e igualar o logo 8px em relação ao menu direito */
@@ -8,12 +8,12 @@
 }
 
 .brand, .menuAdjust a {
-  color: #373737;
+  color: #DCD0C0;
 }
 
 /* color: inherit; sem cor (inherit = herdado) */
 .brand a:hover {
-  color: #6e6e6e;
+  color: #413227;
 } 
 
 .menuAdjust {
@@ -21,18 +21,17 @@
 }
 
 .menuAdjust a:hover {
-  color: #6e6e6e;
+  color: #413227;
 } 
 
-/* 
-muda a cor ao passar o mouse
+
+/* muda a cor ao passar o mouse */
 .dropdown a:hover {
-  background-color: #6e6e6e;
+  background-color: #b39986;
 }  
-*/
 
 /* muda a cor ao clicar */
 .dropdown a:active {
-  background: #6e6e6e;
-  color: #C0B283;
+  background: #98775e;
+  color: #DCD0C0;
 } 
