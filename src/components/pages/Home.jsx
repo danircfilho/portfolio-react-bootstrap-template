@@ -40,7 +40,7 @@ export default function Home() {
               >
                 Utilize o Bootstrap para implementar um "Hero" em sua página. De forma simplista, Hero é um termo utilizado para descrever um produto. Nesse conceito, os e-commerces utilizam as imagens com o zoom adequado para destacar as características principais dessa mercadoria acompanhadas por banners ao lado da imagem
               </motion.p>
-              <div className="px-5 d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
                 <button type="button" className="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
                 <button type="button" className="btn btn-outline-secondary btn-lg px-4">Default</button>
               </div>

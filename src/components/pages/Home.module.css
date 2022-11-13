@@ -19,12 +19,6 @@
   }
 }
 
-/* @media (max-width: 425px) {
-  .wrapper {  
-    width: 80vh !important;
-  }
-} */
-
 @media (max-width: 500px) {
   .wrapper {  
     width: 70vh !important;
