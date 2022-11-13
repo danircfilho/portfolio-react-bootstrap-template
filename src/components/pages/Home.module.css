@@ -13,20 +13,8 @@
   color: #343434;
 }
 
-@media (max-width: 600px) {
-  .wrapper {  
-    width: 80vh !important;
-  }
-}
-
-@media (max-width: 500px) {
-  .wrapper {  
-    width: 70vh !important;
-  }
-}
-
-@media (max-width: 380px) {
-  .wrapper {  
-    width: 60vh !important;
+@media (max-width: 580px) {
+  .wrapperOut {  
+    margin: 3rem 1.5rem 3rem 1.5rem !important; 
   }
 }
