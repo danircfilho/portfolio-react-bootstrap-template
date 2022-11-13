@@ -9,11 +9,15 @@
 }
 
 .cards {  
-  background-color: #8391c0;
+  background-color: #8a7e72;
   margin: 1rem 0 .5rem 0;
   width: 22rem;
   box-shadow: 5px 10px 20px 2px rgba(0, 0, 0, 0.9);
-  border: 1px solid #667dc7 ;
+  border: 1px solid #8a7e72;
+}
+
+.cards p {  
+  color: #000000 !important;
 }
 
 .cards img {
@@ -22,7 +26,6 @@ padding: 1rem;
 border-radius: 22px 22px 0 0;
 }
 
-/* Media Queries */
 @media (max-width: 425px)  {
   .cards {  
     width: 24.5rem;

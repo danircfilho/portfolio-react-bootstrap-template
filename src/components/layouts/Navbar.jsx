@@ -32,10 +32,10 @@ export default function MenuApp() {
           <Container className={styles.menuAdjust}>
             <Nav className="me-auto justify-content-end">
               <Nav.Link>
-                <Link to="/card">Cards</Link>
+                <Link to="/form">Form</Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/form">Form</Link>
+                <Link to="/card">Cards</Link>
               </Nav.Link>
               <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                 {/* div para estilizar o hover ao clicar */}

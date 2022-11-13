@@ -1,7 +1,7 @@
 export const animationPage = {
   hidden: {
     opacity: 0,
-    y: 40
+    y: 2
   },
   show: {
     opacity: 1,
@@ -22,7 +22,7 @@ export const animationPage = {
 
 export const animationTitle = {
   hidden: {
-    y: 80
+    y: 150
   },
   show: {
     y: 0,

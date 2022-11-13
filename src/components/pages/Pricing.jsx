@@ -35,14 +35,14 @@ export default function Pricing() {
               <h4 class="my-0 fw-normal">Free</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+              <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mês</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>10 users included</li>
-                <li>2 GB of storage</li>
-                <li>Email support</li>
-                <li>Help center access</li>
+                <li>10 usuários incluídos</li>
+                <li>02 GB de armazenamento</li>
+                <li>Suporte somente por e-mail</li>
+                <li>Central de atendimento</li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Assine de graça</button>
             </div>
           </div>
         </div>
@@ -52,14 +52,14 @@ export default function Pricing() {
               <h4 class="my-0 fw-normal">Pro</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+              <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mês</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>20 users included</li>
-                <li>10 GB of storage</li>
-                <li>Priority email support</li>
-                <li>Help center access</li>
+                <li>20 usuários incluídos</li>
+                <li>10 GB de armazenamento</li>
+                <li>Suporte rápido por e-mail</li>
+                <li>Central de atendimento</li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Inicie agora</button>
             </div>
           </div>
         </div>
@@ -71,14 +71,14 @@ export default function Pricing() {
               <h4 /* class="my-0 fw-normal" */ class="textCard my-0 fw-normal">Enterprise</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+              <h1 class="card-title pricing-card-title">$30<small class="text-muted fw-light">/mês</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>30 users included</li>
-                <li>15 GB of storage</li>
-                <li>Phone and email support</li>
-                <li>Help center access</li>
+                <li>30 usuários incluídos</li>
+                <li>15 GB de armazenamento</li>
+                <li>Suporte por e-mail e telefone</li>
+                <li>Central de atendimento</li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Nos contate</button>
             </div>
           </div>
         </div>
