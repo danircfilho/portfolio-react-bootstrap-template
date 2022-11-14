@@ -23,8 +23,8 @@ export default function Pricing() {
       ref={ element }
     >
       <div>
-        <h1 /* class="text-muted text-reset" */>Preços</h1>
-        <p /* class="fs-5 text-muted" */ class="fs-5">
+        <h1 /* class="text-muted text-reset" */ class="text-white">Preços</h1>
+        <p /* class="fs-5 text-muted" */ class="text-white fs-5">
           Exemplo de uma tabela de preços simples e eficiente feita com o Bootstrap. Os seus componentes e utilitários foram construídos com o padrão do Bootstrap e possui pouca personalização.
         </p>
       </div>

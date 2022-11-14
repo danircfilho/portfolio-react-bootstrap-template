@@ -1,19 +1,21 @@
 .bg {
-  background: #98775e;
+  background: #58412b;
 }
 
 /* Afastar o logo do título e igualar o logo 8px em relação ao menu direito */
 .brand a {
   padding-left: .5rem;
+  color: #fdfdfd;
 }
 
-.brand, .menuAdjust a {
-  color: #DCD0C0;
+.menuAdjust a {
+  color: #fdfdfd;
+  font-weight: bold;
 }
 
 /* color: inherit; sem cor (inherit = herdado) */
 .brand a:hover {
-  color: #413227;
+  color: #f6cd90;
 } 
 
 .menuAdjust {
@@ -21,17 +23,19 @@
 }
 
 .menuAdjust a:hover {
-  color: #413227;
+  color: #f6cd90;
 } 
 
-
 /* muda a cor ao passar o mouse */
+.dropdown a {
+  color: #f6cd90;
+}  
 .dropdown a:hover {
-  background-color: #b39986;
+  background-color: #be9d7e;
 }  
 
 /* muda a cor ao clicar */
 .dropdown a:active {
-  background: #98775e;
-  color: #DCD0C0;
+  background: #58412b;
+  color: #f6cd90;
 } 

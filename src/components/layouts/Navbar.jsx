@@ -37,9 +37,9 @@ export default function MenuApp() {
               <Nav.Link>
                 <Link to="/card">Cards</Link>
               </Nav.Link>
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                {/* div para estilizar o hover ao clicar */}
+              <NavDropdown className={styles.dropdownNav} title="Dropdown" >
                 <div className={styles.dropdown}>
+                {/* div para estilizar o hover ao clicar */}
                   <NavDropdown.Item>
                     <Link to="/pricing">Preços</Link>
                   </NavDropdown.Item>
@@ -64,4 +64,6 @@ export default function MenuApp() {
 /*
   <Nav.Link href="/card">Cards</Nav.Link>
   <Nav.Link href="/form">Form</Nav.Link>
+
+  id="collasible-nav-dropdown"
 */

@@ -16,8 +16,8 @@ export default function Cards() {
           <Card className={styles.cards}>
             <Card.Img src="https://images.pexels.com/photos/1327373/pexels-photo-1327373.jpeg?auto=compress&cs=tinysrgb&w=600" />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
+              <Card.Title className={styles.cardTitle}>Card Title</Card.Title>
+              <Card.Text className={styles.cardText}>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
@@ -29,8 +29,8 @@ export default function Cards() {
           <Card className={styles.cards}>
             <Card.Img src="https://images.pexels.com/photos/1421837/pexels-photo-1421837.jpeg?auto=compress&cs=tinysrgb&w=600" />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
+              <Card.Title className={styles.cardTitle}>Card Title</Card.Title>
+              <Card.Text className={styles.cardText}>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
@@ -42,8 +42,8 @@ export default function Cards() {
           <Card className={styles.cards}>
             <Card.Img src="https://images.pexels.com/photos/1476880/pexels-photo-1476880.jpeg?auto=compress&cs=tinysrgb&w=600" />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
+              <Card.Title className={styles.cardTitle}>Card Title</Card.Title>
+              <Card.Text className={styles.cardText}>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
@@ -55,8 +55,8 @@ export default function Cards() {
           <Card className={styles.cards}>
             <Card.Img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg?auto=compress&cs=tinysrgb&w=600" />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
+              <Card.Title className={styles.cardTitle}>Card Title</Card.Title>
+              <Card.Text className={styles.cardText}>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
@@ -68,8 +68,8 @@ export default function Cards() {
           <Card className={styles.cards}>
             <Card.Img src="https://images.pexels.com/photos/5882455/pexels-photo-5882455.jpeg?auto=compress&cs=tinysrgb&w=600" />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
+              <Card.Title className={styles.cardTitle}>Card Title</Card.Title>
+              <Card.Text className={styles.cardText}>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
@@ -81,8 +81,8 @@ export default function Cards() {
           <Card className={styles.cards}>
             <Card.Img src="https://images.pexels.com/photos/12431915/pexels-photo-12431915.jpeg?auto=compress&cs=tinysrgb&w=600" />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
+              <Card.Title className={styles.cardTitle}>Card Title</Card.Title>
+              <Card.Text className={styles.cardText}>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
