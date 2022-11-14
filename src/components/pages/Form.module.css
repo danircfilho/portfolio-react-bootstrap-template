@@ -1,16 +1,16 @@
 .form {
-  background-color: #c7a688;
+  background-color: #343434;
   max-width: 25rem;
   justify-content: center;
   padding: 1.5rem;
   margin: 3rem auto;
-  border: 1px solid #aa8869;
+  border: 1px solid #1d1d1d;
   border-radius: 3%;
-  box-shadow: 7px 7px 5px #505050;
+  box-shadow: 7px 7px 5px #1d1d1d;
 }
 
 .form label {
-  color: #25180c;
+  color: #ffffff;
 }
 
 @media (max-width: 425px)  {

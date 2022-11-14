@@ -89,7 +89,7 @@ export default function Footer() {
             </Col>         
           </Col>
         </Row>
-        <Row className={styles.copyrigth}>
+        <Row className={styles.copyright}>
           <Col>
             <p>Copyright &copy; {currentYear} All Rights Reserved<br/>Daniel Rodrigues</p>
           </Col>

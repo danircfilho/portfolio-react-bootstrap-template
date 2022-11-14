@@ -63,7 +63,7 @@ export const animateImage = {
 
 export const scroolReview = {
   hidden: {
-    scale: 1.2,
+    scale: 1.1,
     opacity: 0,
     transition: {
       duration: 0.5

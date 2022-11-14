@@ -1,5 +1,5 @@
 .bg {
-  background: #58412b;
+  background:#ac5f25;
 }
 
 /* Afastar o logo do título e igualar o logo 8px em relação ao menu direito */
@@ -26,10 +26,11 @@
   color: #f6cd90;
 } 
 
-/* muda a cor ao passar o mouse */
 .dropdown a {
-  color: #f6cd90;
+  color: /* #f6cd90 */ #343434;
 }  
+
+/* muda a cor ao passar o mouse */
 .dropdown a:hover {
   background-color: #be9d7e;
 }  

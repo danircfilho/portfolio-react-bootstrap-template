@@ -14,7 +14,7 @@ export default function Pricing() {
 
   return (
     <motion.div
-      class="container p-3 text-center"
+      class="container text-center"
       initial='hidden'
       exit='exit'
       /* animate='show' */

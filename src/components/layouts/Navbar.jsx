@@ -37,7 +37,7 @@ export default function MenuApp() {
               <Nav.Link>
                 <Link to="/card">Cards</Link>
               </Nav.Link>
-              <NavDropdown className={styles.dropdownNav} title="Dropdown" >
+              <NavDropdown title="Dropdown" >
                 <div className={styles.dropdown}>
                 {/* div para estilizar o hover ao clicar */}
                   <NavDropdown.Item>
