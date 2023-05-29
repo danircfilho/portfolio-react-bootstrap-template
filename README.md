@@ -2,7 +2,7 @@
 
 ## Description
 
-- Javascript solutions for typewriter effect.
+- Basic learning in react.
 
 ## Main technology used in learning:
 
@@ -10,6 +10,8 @@
 - React Bootstrap
 
 ## View this project:
+
+https://react.danielrodrigues.dev.br/
 
 Copyrigth (c) 2022 - Daniel Rodrigues de Carvalho Filho
 
